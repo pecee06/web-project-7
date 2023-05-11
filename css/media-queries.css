@@ -1,0 +1,283 @@
+@media (max-width: 1190px) {
+  .card-2 {
+    border: 1px solid white;
+    grid-template-rows: 50px 80px 100px 60px;
+  }
+  .card-3 a,
+  .card-3 p {
+    font-size: 1.7vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container::before {
+    font-size: 14vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 25px 70px;
+  }
+  #features h4,
+  #features p {
+    font-size: 1.5vw;
+  }
+  .sponsors {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  button {
+    font-size: 1.5vw;
+  }
+  .navbar {
+    grid-template-rows: 1fr 0.7fr;
+    padding: 5px 5vw;
+  }
+  .logo {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .logo img {
+    height: 4vw;
+    position: relative;
+    top: 0.5vw;
+  }
+  .tabs {
+    grid-column: span 2;
+  }
+  .tabs ul {
+    padding: 10px;
+    align-items: center;
+  }
+  .tabs a {
+    font-size: 1.8vw;
+  }
+  .card-1 {
+    padding: 3vw 15px 1vw 15px;
+  }
+  #features {
+    padding: 20px 0;
+  }
+  #features h4,
+  #features p {
+    font-size: 1.8vw;
+  }
+  #clients {
+    padding: 25px 0;
+  }
+  .container::before {
+    font-size: 15vw;
+  }
+  #products {
+    padding: 20px 0;
+  }
+  .card-2 {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact-details,
+  .pitch p {
+    font-size: 1.5vw;
+  }
+  .sponsors {
+    padding: 25px 0;
+  }
+  .sponsors {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sponsors div {
+    margin: 5px 0;
+  }
+  #clients {
+    padding-top: 30px;
+  }
+  #clients div {
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+  }
+  #clients p {
+    font-size: 2vw;
+  }
+  #clients img {
+    float: none;
+  }
+  .container::before {
+    font-size: 19vw;
+  }
+  button {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 570px) {
+  .card-3 a {
+    margin: 0;
+  }
+  .card-3 img {
+    margin: 10px 0;
+  }
+  #features h4,
+  #features p {
+    font-size: 2.5vw;
+  }
+  .tabs a {
+    font-size: 2.2vw;
+  }
+  .contact-details,
+  .pitch p {
+    font-size: 1.9vw;
+  }
+  .contact-details ul {
+    justify-content: space-evenly;
+  }
+  .contact-details li {
+    margin: 0;
+  }
+  .copyright {
+    font-size: 2vw;
+    padding: 10px 0;
+  }
+  .social {
+    margin-bottom: 5px;
+  }
+  .social img {
+    height: 30px;
+  }
+  .introduction h2 {
+    font-size: 8vw;
+    margin-top: 0;
+  }
+
+  .introduction p {
+    font-size: 2vw;
+  }
+  #features h3,
+  #products h3 {
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+  }
+  .card-3 a,
+  .card-3 p {
+    font-size: 2.3vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .navbar {
+    grid-template-rows: 10vw;
+  }
+  .card-1 {
+    display: none;
+  }
+  .tabs ul {
+    align-items: center;
+  }
+  .card-3 img {
+    height: 50vw;
+  }
+  .logo {
+    display: none;
+  }
+  #clients {
+    grid-template-rows: repeat(3, 1fr);
+  }
+  #clients div {
+    grid-column: span 3;
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 5px 20px;
+  }
+  #clients p {
+    font-size: 3vw;
+  }
+  .container::before {
+    content: "";
+  }
+  .sponsors {
+    padding-top: 0;
+  }
+  .sponsors img,
+  #clients img {
+    height: 7vw;
+  }
+  .sponsors img {
+    position: static;
+  }
+  #features h3,
+  #products h3 {
+    font-size: 3.5vw;
+    margin-bottom: 0;
+  }
+  #features h4,
+  #features p {
+    font-size: 3.2vw;
+  }
+  .contact-details,
+  .pitch p {
+    font-size: 2.5vw;
+  }
+  .pitch h2 {
+    font-size: 3.3vw;
+  }
+  .pitch h3 {
+    font-size: 3vw;
+  }
+  button {
+    font-size: 3vw;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .hide-heading {
+    display: block;
+    color: lightgray;
+  }
+}
+
+@media (max-width: 320px) {
+  .card-2 {
+    grid-template-rows: 25px 40px 70px 50px;
+  }
+  .card-2 img {
+    height: 40px;
+  }
+  .social img{
+    height: 20px;
+  }
+  .tabs a {
+    font-size: 3.5vw;
+  }
+  .introduction p {
+    font-size: 3vw;
+  }
+  .pitch p {
+    font-size: 3vw;
+  }
+  .card-2 img {
+    height: 30px;
+  }
+  #features h4,
+  #features p {
+    font-size: 4vw;
+  }
+  #features h3,
+  #products h3 {
+    font-size: 6vw;
+  }
+  .card-3 a,
+  .card-3 p {
+    font-size: 3.5vw;
+  }
+  .copyright p{
+    line-height: 1;
+    margin-top: 10px;
+  }
+}
